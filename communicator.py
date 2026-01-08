@@ -9,8 +9,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from drawer_configurator import draw_payment_receipt, draw_error_receipt
 
 # === НАСТРОЙКИ ===
-BOT_TOKEN = "8438107430:AAGskUqIlF5DuwMEd0zzPNd7gPGKYYqZHSk"
-ALLOWED_USER_IDS = {8112653320, 7946757417}
+BOT_TOKEN = ":"
+ALLOWED_USER_IDS = {, }
 
 # === ИНИЦИАЛИЗАЦИЯ ===
 bot = Bot(token=BOT_TOKEN)
